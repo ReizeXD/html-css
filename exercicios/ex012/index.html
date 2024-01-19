@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+        <p>Este video está hospedado no meu própio servidor</p>
+
+       <!-- forma simples
+<video src="midia/Pexels-Stefanie-Jockschat-18756233 (1080Palterado).webm" width="500" height="400" controls></video>
+       --> 
+
+    <video poster="imagens/limoes-capa.png" width="500" weight="400" controls autoplay muted loop>
+        <source src="midia/Pexels-Stefanie-Jockschat-18756233 (1080Palterado).webm" type="video/webm">
+        <source src="midia/Pexels-Stefanie-Jockschat-18756233 (1080Palterado).mp4" type="video/mp4">
+        <source src="midia/pexels-stefanie-jockschat-18756233 (1080p).mp4" type="video/mp4">
+        <p>Seu navegador nao tem comptatibilidade com reprodução de videoes</p>
+    </video>
+
+    <h1>Inserindo videos dO Youtube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/Ef8h7nX5W0w?si=6UCDg3QhLNWKXube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
