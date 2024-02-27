@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url(imagens/back-print.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
 
+
+            /* Shorthand background 
+            color->image->repeat->atachment->position
+            */
+            background: black url(imagens/back-print.jpg) no-repeat fixed center center ;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin:auto;
             border: 1px solid darkblue;
             border-radius:15px;
         }
     </style>
-</head>
+</head> 
 <body>
     <main>
         <h1>
@@ -31,6 +38,7 @@
         </h1>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quisquam minima nulla iure error dignissimos ratione voluptatem, natus voluptas consectetur laborum nobis qui soluta sunt reprehenderit labore numquam deserunt inventore.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque labore veniam sit, vitae, saepe voluptatum vel numquam ratione amet sequi cupiditate totam ex corrupti itaque consectetur culpa similique. Excepturi labore nostrum obcaecati sapiente tenetur placeat, odit consequatur voluptatem accusamus, ipsa vitae enim non fuga doloribus. Magnam excepturi laboriosam ut! Sed aperiam non ab pariatur, unde, ipsum quae, consequuntur repellat a deserunt harum? Dolorem blanditiis similique, maiores rem recusandae minima alias sint ullam consequuntur quidem a quos nesciunt placeat ab, quam, magnam doloremque? Accusamus architecto molestias amet repellendus incidunt, error id ipsa repellat repudiandae laborum maiores nihil blanditiis! Magni, debitis natus!
         </p>
     </main>
 </body>
