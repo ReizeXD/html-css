@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* .passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .passion-one-bold {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .passion-one-black {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .nova-square-regular {
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+  @font-face {
+    font-family: "Cordel";
+    src: url("../fonts/PassionOne-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "texto";
+    src: url("../fonts/Sriracha-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  :root{
+  --fonte1: "Cordel";
+  --fonte2: "texto"
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+  header{
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+    min-height: 250px ;
+  }
+  header>h1{
+    font-family: var(--fonte1), cursive;
+    font-size: 10em;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+
+  header>p{
+    font-family: var(--fonte1), cursive;
+  }
+
+
+  main{
+    font-family: var(--fonte2), cursive;
+
+  }
+
+  main>section{
+    min-height: 600px;
+  }
+  main>section.imagem{
+     background-color: rgba(0, 0, 0, 0.541);
+     color: white;
+     
+  }
+  main>section>p{
+    padding-top: 80px;
+    padding-bottom: 2em;
+    padding-left: 30px;
+    min-height:auto;
+    max-width: 40%;
+    font-size: 3.5em;
+    text-align:left;
+  }
+
+
+  section#img1{
+     background-image: url("../imagens/background001.jpg");
+     background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+ }
+
+  section#img2{
+    background-image: url("../imagens/background002.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+ 
+
+
+  }
+
+  
