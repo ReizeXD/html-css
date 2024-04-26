@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de forms</h1>
+    <form action="" method="post" autocomplete="on"></form>
+    <p>
+        <label for="iest"></label>
+        <select name="est" id="iest">
+            <option value="">selecione</option>
+        <optgroup label="Sudeste">
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="MG">MG</option>
+        </optgroup>
+        <optgroup label="Nordeste">
+            <option value="AL">AL</option>
+            <option value="PE">PE</option>
+            <option value="RN">RN</option>
+        </optgroup>
+    </select>
+</p>
+    <p>
+        <label for="iprof">profissao</label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option value="ADM">ADMa</option>
+            <option value="Cont">Contabilista</option>
+            <option value="DEV"> Desenvolvedor</option>
+            <option value="prof">prof</option>
+        </datalist>
+    </p>
+    <p>
+        <label for="imsg">Mensagem</label><br>
+        <!-- style="resize:none" eita mudar tamanho
+        maxlenght=x limita o numero de caracteres -->
+        <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Agora funciona" maxlength="10"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="resetar">
+    </p>
+</body>
+</html>
