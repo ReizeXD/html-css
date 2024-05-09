@@ -38,9 +38,9 @@ nav#itens{
 
 a {
     display: block;
-    padding: 10px;
+    padding: 10px;;
     text-decoration:none ;
-    background-color: rgba(128, 128, 128, 0.751);
+    background-color: rgba(36, 34, 34, 0.751);
     color: white;
     text-align: center;
     border:2px solid gray;
